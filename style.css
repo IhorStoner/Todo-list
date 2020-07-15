@@ -1,0 +1,75 @@
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.todolist {
+    position: relative;
+    padding: 2% 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btnNewNote {
+    position: absolute;
+    top: 0;
+}
+
+.btnShowNotes {
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+.noteContent {
+    border: 2px solid black;
+    padding: 5px;
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.note {
+    border: 2px solid black;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.noteInput {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.confirmBlock {
+    border-color: red;
+}
+
+.editBlock {
+    border-color: green;
+}
+
+.btnDelete {
+    background-image: url(img/deleteIcon.svg);
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btnYes, #btnSave {
+    margin-right: 5px;
+}
+
+.invalid {
+    border-color: red;
+}

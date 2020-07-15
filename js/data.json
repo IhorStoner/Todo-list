@@ -1,0 +1,4 @@
+{
+    "priorities": ["Low priority", "Medium priority", "High priority"],
+    "statuses": ["Open", "In progress", "Done"]
+}
